@@ -1,0 +1,221 @@
+/* kiểu external */
+html{
+    font-size: 100%;
+}
+:root{
+    --primary-color: #EE4D2D;
+    --border-color: #dbdbdb;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    }
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.circle{
+    border: 1px solid black;
+    padding: 10px;
+    width: 170px;
+    height: 20px;
+    border-radius:10px;
+    text-align: center;
+    }
+.login {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius:10px;
+    text-align: center;
+    }
+.left-box{
+    width: 280px;
+    height: 665px;
+    background-color: black;
+    margin-left: -10px;
+    margin-top:-10px;
+    position: fixed;
+    /* flex: 1; */
+}
+.right-box{
+    width: 1082px;
+    height: 647px;
+    background-color: white;
+    margin-left: 270px;
+    /* display: flex;
+    flex-direction: column; */
+    /* flex: 5; */
+}
+.nav-item{
+    color: black;
+    list-style: none;
+    margin: 26px 8px;
+    display: inline-block;
+}
+.nav-list{
+    padding-left: 0;
+    margin: auto 16px;
+}
+.column-layout{
+    background-color: white;
+    display: flex;
+    
+}
+.nav{
+    min-height: 60px;
+    background-color: white;
+    width: 75%;
+    top: 0;
+    margin-left: 330px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrap-layout-items{
+    width: 240px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.wrap-layout-product{
+    width: 240px;
+    height: 300px;
+    margin-top: 0px;
+    background-color: white;
+}
+.box-login{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    
+}
+#outPopUp {
+    
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: red;
+  }
+  /* #centeredDiv { margin-right: auto; margin-left: auto; width: 800px; background-color: white;} */
+
+/* authen */
+.auth-form__container{
+    padding: 0 25px;
+}
+
+.auth-form__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-form__heading{
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.auth-form__switch-btn{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+.auth-form__input{
+    width: 90%;
+    height: 30px;
+    padding: 0 12px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: 2px solid var(--border-color);
+    outline: none;
+}
+.auth-form__input:focus{
+    border-color: #888;
+}
+.auth-form_aside{
+    margin-top: 20px;
+}
+.auth-form__policy-text{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.auth-form__text-link{
+    color: var(--primary-color);
+    padding:0 12px;
+}
+.auth-form__controls{
+    margin-top: 60px;
+}
+/* button */
+.btn{
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn.btn--primary{
+    color: white;
+    background-color: var(--primary-color);
+}
+.auth-form__controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+  /* #function{
+    margin-left: 10px;
+    color: #AAAAAA;
+}
+a.alignment{
+    margin-left: 60px;
+    color: #AAAAAA;
+} */
+/* .header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(0, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+}
+.header1{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(180deg, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+} */
+/* chỉnh 1 id cụ thể 
+#first-paragraph{
+    color: red;
+} */
+/* chỉnh 1 class
+.second-pragraph {
+    color: green;
+} */
